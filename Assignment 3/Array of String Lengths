@@ -1,0 +1,9 @@
+def length_finder(input_array)
+  word_length = []
+  input_array.each do |x| 
+	word_length.push(x.length)
+  end
+  word_length
+end
+
+length_finder(['Ruby','Rails','C42'])

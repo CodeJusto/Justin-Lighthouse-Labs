@@ -1,0 +1,173 @@
+body {
+	background-image:url("http://s3.amazonaws.com/spoonflower/public/design_thumbnails/0215/4878/rrsushi-pattern_shop_thumb.png");
+	background-repeat:repeat;
+	font-family:sans-serif;
+}
+
+h1 {
+	font-size:40px;
+	text-align:center;
+	font-family:Calibri,sans-serif
+
+}
+
+h2 {
+	font-size:36px;
+	text-align:center;
+}
+
+
+a {
+	color:purple;
+	text-decoration:none;
+	transition: all 0.5s ease;
+
+}
+
+a:hover {
+	font-weight:bold;
+	font-size:16px;
+
+}
+
+table {
+	
+	margin:0px 50px 20px 0px;
+	float:left;
+}
+
+li {
+	margin-left:20px;
+}
+
+td h3 {
+	text-align:center;
+}
+
+td p {
+	font-size:14px;
+}
+
+
+.header {
+	border-bottom:5px solid black;
+	margin-bottom:15px;
+	background-color:white;
+	border-radius:5px;
+}
+
+.body {
+	background-color:white;
+	margin-left:25%;
+	margin-right:25%;
+	padding:1px 30px 60px 30px;
+	border-radius:10px;
+	box-shadow:10px 10px 5px #888888;
+	border: 2px black solid;
+}
+
+.container {
+	max-width:600px;
+	max-height:250px;
+	overflow:hidden;
+	margin:0 auto;
+	border:1px solid black;
+	border-radius:5px;
+
+}
+
+.container img {
+	max-width:120%;
+	box-shadow:10px 10px 5px #888888;
+}
+
+
+.california {
+	width:250px;
+	height:250px;
+	border:1px solid black;
+	box-shadow:10px 10px 5px #888888;
+	transition: all 0.5s ease;
+	border-radius:5px;
+
+}
+
+.california:hover {
+	width:275px;
+	height:275px;
+}
+
+.ingredient:hover {
+	color:red;
+	cursor:pointer;
+}
+
+.clickedOn {
+	text-decoration: line-through;
+	color:gray;
+	list-style: url('http://curvecommunications.com//blog/wp-content/uploads/check4.png');
+}
+
+.clickedOn:hover {
+	cursor:pointer;
+}
+
+.button {
+	height:35px;
+	width:150px;
+	background-color:#e67300;
+	margin:0 auto;
+	border-radius:15px;
+	border:0px solid black;
+	box-shadow: 0px 5px 0px #994d00;
+	cursor:pointer;
+	margin-top:0px;
+
+}
+
+.buttonText {
+	text-align:center;
+	font-weight:bold;
+	line-height:2.25em;
+}
+
+.expand {
+	text-align:center;
+	font-weight:bold;
+	cursor:pointer;
+	font-size:24px;
+}
+
+.expand:hover {
+	text-decoration:underline;
+}
+
+
+.tracker {
+	position:absolute;
+	height:15px;
+	width:15px;
+	background-image: url("http://www.understandislam.org/wp-content/uploads/2016/01/red-arrow.gif");
+	margin-left:-20px;
+
+}
+
+#rightcali {
+	float:right;
+	margin-left:40px;
+	margin-bottom:50px;
+
+}
+
+
+#Rupee {
+	color:purple;
+	font-weight:bold;
+}
+
+
+#TableCaption {
+	max-width:250px;
+		text-align:center;
+	font-style:italic;
+}
